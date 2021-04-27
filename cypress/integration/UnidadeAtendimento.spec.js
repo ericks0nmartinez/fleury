@@ -5,12 +5,12 @@ import validarResultado from '../support/UnidadeAtendimento/validarResultado';
 import acessarUnidadeSelecionada from '../support/UnidadeAtendimento/acessarUnidadeSelecionada';
 import confirmaUnidade from '../support/UnidadeAtendimento/confirmaUnidade';
 
-describe('Criando Arquivos Teste', () => {
+describe('Desafio web Fleury', () => {
   before(() => {
     cy.viewport(1366, 768)
     cy.visit('https://www.fleury.com.br/')
   })
-  it('Troca Titulo', () => {
+  it('Filtrar Unidade de Atedimento', () => {
     acessaSite.HomePage();
     navegarNoSite.escolheMenu('Unidades');
     opcoesFacilidade.mostrarOpcoes();

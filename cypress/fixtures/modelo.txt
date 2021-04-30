@@ -1,0 +1,3 @@
+menuVenda.acessandoPosVenda();
+pegarPosVenda.ConfirmarDadosPosVenda();
+salvrPosVenda.botaoSalvar();
